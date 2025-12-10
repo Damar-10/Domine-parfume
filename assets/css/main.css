@@ -2269,12 +2269,13 @@ section,
   padding-bottom: 30px;
 }
 
+
 .promo-cards .category-featured {
   position: relative;
   border-radius: 12px;
   min-height: 500px;
   overflow: hidden;
-  background-color: #f8f5ff;
+  background-color: whitesmoke;
   transition: all 0.4s ease;
 }
 
@@ -2374,19 +2375,19 @@ section,
 }
 
 .promo-cards .category-card.cat-men {
-  background-color: #e6f4ff;
+  background-color: whitesmoke;
 }
 
 .promo-cards .category-card.cat-kids {
-  background-color: #fff4e6;
+  background-color: whitesmoke;
 }
 
 .promo-cards .category-card.cat-cosmetics {
-  background-color: #ffe6eb;
+  background-color: whitesmoke;
 }
 
 .promo-cards .category-card.cat-accessories {
-  background-color: #e6ffe8;
+  background-color: whitesmoke;
 }
 
 .promo-cards .category-card:hover {
@@ -2399,6 +2400,10 @@ section,
 
 .promo-cards .category-card:hover .card-link {
   color: color-mix(in srgb, var(--accent-color), transparent 15%);
+}
+
+.catagory-content a {
+  background-color: white;
 }
 
 .promo-cards .category-card:hover .card-link i {
